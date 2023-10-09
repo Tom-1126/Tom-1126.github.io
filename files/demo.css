@@ -1,0 +1,47 @@
+.index_demo {
+    font-size: 49px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 96px 0 34px 0;
+    justify-content: flex-start;
+}
+.image_demo {
+    position: absolute;
+}
+.topo_demo {
+    font-size: 49px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 895px 0 34px 0;
+    display: flex !important;
+    justify-content: flex-start;
+}
+.image_sinopec_demo {
+}
+.image_sinopec {
+    position: absolute;
+    top: 527px;
+    left: 381px;
+    z-index: 1;
+    width: 262px !important;
+    height: 142px !important;
+}
+.video_demo_one {
+    position: absolute;
+    left: 751px;
+    top: 385px;
+    width: 563px !important;
+    height: 320px !important;
+}
+.video_demo_two {
+    padding: 190px 0 0 1359px;
+    width: 563px !important;
+    height: 320px !important;
+    position: absolute;
+}
+.image_demo_three {
+    position: absolute;
+    padding: 992px 0 0 0;
+    width: 658px !important;
+    height: 348px !important;
+}
