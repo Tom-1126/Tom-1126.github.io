@@ -1,1 +1,31 @@
-Hello world!
+<style>
+/*--预设--*/ 
+body { padding:0px;margin: 0px; } 
+#lyrow, #lyrow input, #lyrow textarea { font-size:12px;font-family: 'Microsoft YaHei', '微软雅黑', MicrosoftJhengHei, '华文细黑', STHeiti, MingLiu; } 
+#lyrow { height:100vh;width: 100vw; } 
+#lyrow div { min-height: 18px;  } 
+#lyrow input, #lyrow textarea { border:rgb(235, 235, 235) 1px solid;border-radius: 3px;padding: 5px 8px;outline: 0; } 
+#lyrow input:hover, #lyrow textarea:hover { border: 1px solid #6bc1f2; } 
+/*--编辑--*/ 
+#lyrow .index_demo { font-size:49px;font-weight:900;text-transform:uppercase;padding:96px 0 34px 0;justify-content:flex-start; } 
+#lyrow .image_demo { position:absolute; } 
+#lyrow .topo_demo { font-size:49px;font-weight:900;text-transform:uppercase;padding:895px 0 34px 0;display:flex !important;justify-content:flex-start; } 
+#lyrow .image_sinopec_demo {  } 
+#lyrow .image_sinopec { position:absolute;top:527px;left:381px;z-index:1;width:262px !important;height:142px !important; } 
+#lyrow .video_demo_one { position:absolute;left:751px;top:385px;width:563px !important;height:320px !important; } 
+#lyrow .video_demo_two { padding:190px 0 0 1359px;width:563px !important;height:320px !important;position:absolute; } 
+#lyrow .image_demo_three { position:absolute;padding:992px 0 0 0;width:658px !important;height:348px !important; } 
+
+</style>
+<!--下载font-awesome.css图标包-->
+<!--https://www.58html.com/html/template/font-awesome.zip-->
+<link rel="stylesheet" href="./files/demo.css">
+<div id="lyrow">
+    <h1 class="index_demo">a. Real-world Vision Task</h1>
+<video class="video_demo_one" src="/folder/css/movie.ogg" preload="preload" controls="controls"> </video>
+    <img class="image_demo" src="http://www.58html.com/folder/imgs/202310/9d77d613f2c7e5c891c30a6a2a0af1c1.png">
+<video class="image_demo_three" src="/folder/css/movie.ogg" preload="preload" controls="controls"> </video>
+    <img src="http://www.58html.com/folder/imgs/202310/8e0c8487be5f1fedd8f8633caa83f4ae.png" class="image_sinopec">
+<video class="video_demo_two" src="/folder/css/movie.ogg" preload="preload" controls="controls"> </video>
+    <h1 class="topo_demo">B. Topological Detection System</h1>
+</div>
