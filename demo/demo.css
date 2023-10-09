@@ -1,0 +1,66 @@
+.index_demo {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 96px 0 34px 0;
+    justify-content: flex-start;
+}
+.image_demo {
+    position: absolute;
+    width: 1380px !important;
+    max-width: 1380px;
+    height: 600px !important;
+    max-height: 600px;
+    min-width: 1380px;
+    min-height: 600px !important;
+}
+.topo_demo {
+    font-size: 49px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 895px 0 34px 0;
+    display: flex !important;
+    justify-content: flex-start;
+}
+.image_sinopec_demo {
+}
+.image_sinopec {
+    position: absolute;
+    top: 410px;
+    left: 268px;
+    z-index: 1;
+    height: 102px !important;
+    width: calc(185px - 0px);
+    max-width: 185px;
+    min-width: 185px;
+    max-height: 102px;
+    min-height: 102px !important;
+}
+.video_demo_one {
+    position: absolute;
+    top: 300px;
+    width: 410px !important;
+    height: 250px !important;
+    left: 520px;
+    max-width: 410px;
+    min-width: 410px;
+    max-height: 250px;
+    min-height: 250px !important;
+}
+.video_demo_two {
+    width: 410px !important;
+    height: 250px !important;
+    position: absolute;
+    top: 300px;
+    max-width: 410px;
+    min-width: 410px;
+    max-height: 250px;
+    min-height: 250px !important;
+    left: 950px;
+}
+.image_demo_three {
+    position: absolute;
+    padding: 992px 0 0 0;
+    width: 658px !important;
+    height: 348px !important;
+}
