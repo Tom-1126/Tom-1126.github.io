@@ -34,10 +34,11 @@
     height: 320px !important;
 }
 .video_demo_two {
-    padding: 190px 0 0 1359px;
     width: 563px !important;
     height: 320px !important;
     position: absolute;
+    top: 385px;
+    left: 1357px;
 }
 .image_demo_three {
     position: absolute;
